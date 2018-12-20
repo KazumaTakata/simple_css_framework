@@ -1,0 +1,21 @@
+button {
+  background: $background-color;
+  border: 0.1rem solid $color1;
+  border-radius: 0.4rem;
+  color: $color1;
+  padding: 1rem 2rem;
+  outline: none;
+
+  &:hover {
+    background: $color3;
+    color: $background-color;
+  }
+
+  &.clean {
+    &:hover {
+      color: $color3;
+      background: $background-color;
+      border: 0.1rem solid $color3;
+    }
+  }
+}

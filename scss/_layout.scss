@@ -1,0 +1,33 @@
+.container {
+  margin: 0 auto;
+  max-width: 120rem;
+  padding: 0 4rem;
+  width: 100%;
+}
+
+.center {
+  text-align: center;
+  padding: 3rem;
+}
+
+.backcolor {
+  background: $color5;
+  margin: 0.1rem;
+  text-align: center;
+  padding: 3rem;
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+
+  .col {
+    flex: auto;
+  }
+}
+
+@media (min-width: 40rem) {
+  .row {
+    flex-direction: row;
+  }
+}
